@@ -1,5 +1,5 @@
-import Users from './Users';
-import Alboms from './Alboms';
+import Users from './Users/Index';
+import Alboms from './Alboms/Index';
 import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { Route } from 'react-router-dom';

@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import Albom from './Albom';
-import { loadAlboms } from '../redux/action';
 import ReactLoading from 'react-loading';
+import { loadAlboms } from '../../redux/action'
 
-function Alboms(props) {
+function Index(props) {
   const dispatch = useDispatch();
   const params = useParams();
   const alboms = useSelector((state) => state.alboms.items);
@@ -40,4 +40,4 @@ function Alboms(props) {
   );
 }
 
-export default Alboms;
+export default Index;

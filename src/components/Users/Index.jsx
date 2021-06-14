@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import User from './User';
 
-function Users(props) {
+function Index(props) {
   const users = useSelector((state) => state.users.items);
 
   return (
@@ -14,4 +14,4 @@ function Users(props) {
   );
 }
 
-export default Users;
+export default Index;
